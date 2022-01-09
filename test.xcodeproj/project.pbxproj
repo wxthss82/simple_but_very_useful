@@ -11,6 +11,7 @@
 		034DA6D5278AE1DF002F9EC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034DA6D4278AE1DF002F9EC4 /* ContentView.swift */; };
 		034DA6D7278AE1E0002F9EC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034DA6D6278AE1E0002F9EC4 /* Assets.xcassets */; };
 		034DA6DA278AE1E0002F9EC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034DA6D9278AE1E0002F9EC4 /* Preview Assets.xcassets */; };
+		034DA6E1278AE7BE002F9EC4 /* mapstogpx20220109_095141.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 034DA6E0278AE7BE002F9EC4 /* mapstogpx20220109_095141.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		034DA6D4278AE1DF002F9EC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		034DA6D6278AE1E0002F9EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		034DA6D9278AE1E0002F9EC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		034DA6E0278AE7BE002F9EC4 /* mapstogpx20220109_095141.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = mapstogpx20220109_095141.gpx; path = ../../../Downloads/mapstogpx20220109_095141.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		034DA6D1278AE1DF002F9EC4 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				034DA6E0278AE7BE002F9EC4 /* mapstogpx20220109_095141.gpx */,
 				034DA6D2278AE1DF002F9EC4 /* testApp.swift */,
 				034DA6D4278AE1DF002F9EC4 /* ContentView.swift */,
 				034DA6D6278AE1E0002F9EC4 /* Assets.xcassets */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034DA6E1278AE7BE002F9EC4 /* mapstogpx20220109_095141.gpx in Resources */,
 				034DA6DA278AE1E0002F9EC4 /* Preview Assets.xcassets in Resources */,
 				034DA6D7278AE1E0002F9EC4 /* Assets.xcassets in Resources */,
 			);
@@ -269,6 +273,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
+				DEVELOPMENT_TEAM = A456469KUU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -281,7 +286,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangxin787.loctest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -297,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
+				DEVELOPMENT_TEAM = A456469KUU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -309,7 +315,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangxin787.loctest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
